@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4353172B1E53C47500A2AC4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4353172A1E53C47500A2AC4F /* AppDelegate.swift */; };
+		4353172D1E53C47500A2AC4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4353172C1E53C47500A2AC4F /* ViewController.swift */; };
+		435317301E53C47500A2AC4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4353172E1E53C47500A2AC4F /* Main.storyboard */; };
+		435317331E53C47500A2AC4F /* S400_Aula02_WebServiceDownload.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 435317311E53C47500A2AC4F /* S400_Aula02_WebServiceDownload.xcdatamodeld */; };
+		435317351E53C47500A2AC4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 435317341E53C47500A2AC4F /* Assets.xcassets */; };
+		435317381E53C47500A2AC4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 435317361E53C47500A2AC4F /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		435317271E53C47400A2AC4F /* S400_Aula02_WebServiceDownload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = S400_Aula02_WebServiceDownload.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4353172A1E53C47500A2AC4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4353172C1E53C47500A2AC4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4353172F1E53C47500A2AC4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		435317321E53C47500A2AC4F /* S400_Aula02_WebServiceDownload.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = S400_Aula02_WebServiceDownload.xcdatamodel; sourceTree = "<group>"; };
+		435317341E53C47500A2AC4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		435317371E53C47500A2AC4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		435317391E53C47500A2AC4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		435317241E53C47400A2AC4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4353171E1E53C47400A2AC4F = {
+			isa = PBXGroup;
+			children = (
+				435317291E53C47500A2AC4F /* S400_Aula02_WebServiceDownload */,
+				435317281E53C47500A2AC4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		435317281E53C47500A2AC4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				435317271E53C47400A2AC4F /* S400_Aula02_WebServiceDownload.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		435317291E53C47500A2AC4F /* S400_Aula02_WebServiceDownload */ = {
+			isa = PBXGroup;
+			children = (
+				4353172A1E53C47500A2AC4F /* AppDelegate.swift */,
+				4353172C1E53C47500A2AC4F /* ViewController.swift */,
+				4353172E1E53C47500A2AC4F /* Main.storyboard */,
+				435317341E53C47500A2AC4F /* Assets.xcassets */,
+				435317361E53C47500A2AC4F /* LaunchScreen.storyboard */,
+				435317391E53C47500A2AC4F /* Info.plist */,
+				435317311E53C47500A2AC4F /* S400_Aula02_WebServiceDownload.xcdatamodeld */,
+			);
+			path = S400_Aula02_WebServiceDownload;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		435317261E53C47400A2AC4F /* S400_Aula02_WebServiceDownload */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4353173C1E53C47500A2AC4F /* Build configuration list for PBXNativeTarget "S400_Aula02_WebServiceDownload" */;
+			buildPhases = (
+				435317231E53C47400A2AC4F /* Sources */,
+				435317241E53C47400A2AC4F /* Frameworks */,
+				435317251E53C47400A2AC4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = S400_Aula02_WebServiceDownload;
+			productName = S400_Aula02_WebServiceDownload;
+			productReference = 435317271E53C47400A2AC4F /* S400_Aula02_WebServiceDownload.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4353171F1E53C47400A2AC4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Swift;
+				TargetAttributes = {
+					435317261E53C47400A2AC4F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 435317221E53C47400A2AC4F /* Build configuration list for PBXProject "S400_Aula02_WebServiceDownload" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4353171E1E53C47400A2AC4F;
+			productRefGroup = 435317281E53C47500A2AC4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				435317261E53C47400A2AC4F /* S400_Aula02_WebServiceDownload */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		435317251E53C47400A2AC4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				435317381E53C47500A2AC4F /* LaunchScreen.storyboard in Resources */,
+				435317351E53C47500A2AC4F /* Assets.xcassets in Resources */,
+				435317301E53C47500A2AC4F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		435317231E53C47400A2AC4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				435317331E53C47500A2AC4F /* S400_Aula02_WebServiceDownload.xcdatamodeld in Sources */,
+				4353172D1E53C47500A2AC4F /* ViewController.swift in Sources */,
+				4353172B1E53C47500A2AC4F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4353172E1E53C47500A2AC4F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4353172F1E53C47500A2AC4F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		435317361E53C47500A2AC4F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				435317371E53C47500A2AC4F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4353173A1E53C47500A2AC4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4353173B1E53C47500A2AC4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4353173D1E53C47500A2AC4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = S400_Aula02_WebServiceDownload/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.quaddro.com.S400-Aula02-WebServiceDownload";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4353173E1E53C47500A2AC4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = S400_Aula02_WebServiceDownload/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.quaddro.com.S400-Aula02-WebServiceDownload";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		435317221E53C47400A2AC4F /* Build configuration list for PBXProject "S400_Aula02_WebServiceDownload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4353173A1E53C47500A2AC4F /* Debug */,
+				4353173B1E53C47500A2AC4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4353173C1E53C47500A2AC4F /* Build configuration list for PBXNativeTarget "S400_Aula02_WebServiceDownload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4353173D1E53C47500A2AC4F /* Debug */,
+				4353173E1E53C47500A2AC4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		435317311E53C47500A2AC4F /* S400_Aula02_WebServiceDownload.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				435317321E53C47500A2AC4F /* S400_Aula02_WebServiceDownload.xcdatamodel */,
+			);
+			currentVersion = 435317321E53C47500A2AC4F /* S400_Aula02_WebServiceDownload.xcdatamodel */;
+			path = S400_Aula02_WebServiceDownload.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4353171F1E53C47400A2AC4F /* Project object */;
+}
